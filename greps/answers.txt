@@ -1,15 +1,31 @@
 # Part 1
 ### a)
+Completed
+grep beed filescan_00.1 > beedrill.txt
+grep blas filescan_00.1 > blastoise.txt
+grep bulb filescan_00.1 > bulbasaur.txt
+grep butt filescan_00.1 > butterfree.txt
+grep izard filescan_00.2 > charizard.txt
+grep mander filescan_00.2 > charmander.txt
+grep meleon filescan_00.2 > charmeleon.txt
+grep ivys filescan_00.3 > ivysaur.txt
+grep lypuff filescan_00.3 > jigglypuff.txt
+grep meow filescan_00.3 > meowth.text
+grep venu filescan_00.4 > venusaur.text
+grep squi filescan_00.4 > squirtle.text
+grep chu filescan_00.3 > pikachu.txt
+grep psyd filescan_00.4 > psyduck.text
+grep wart filescan_00.4 > wartortle.text
 
 
 
 
 ### b)
-
+Completed
 
 
 ### c)
-
+Completed
 
 
 
@@ -24,13 +40,53 @@
 
 # Part 2
 ### a)
-
+ls | wc -l
+16 shows. There are 15 Pokemon since we do not include the instructions file.
 
 
 
 
 
 ### b)
+The three biggest Pokemon are Beedrill, Charizard, and Pikachu at 40 lines.
+
+
+MacBook-Pro:forest clyde$ grep bulb filescan_00.1 | wc -l
+      30
+MacBook-Pro:forest clyde$ grep butt filescan_00.1 | wc -l
+      38
+MacBook-Pro:forest clyde$ grep beed filescan_00.1 | wc -l
+      40
+MacBook-Pro:forest clyde$ grep blas filescan_00.1 | wc -l
+      38
+MacBook-Pro:forest clyde$ grep izard$  filescan_00.1 | wc -l
+       0
+MacBook-Pro:forest clyde$ grep izard  filescan_00.2 | wc -l
+      40
+MacBook-Pro:forest clyde$ grep mander  filescan_00.2 | wc -l
+      36
+MacBook-Pro:forest clyde$ grep meleon  filescan_00.2 | wc -l
+      37
+MacBook-Pro:forest clyde$ grep ivys  filescan_00.2 | wc -l
+       0
+MacBook-Pro:forest clyde$ grep ivys  filescan_00.3 | wc -l
+      33
+MacBook-Pro:forest clyde$ grep jigg  filescan_00.3 | wc -l
+      34
+MacBook-Pro:forest clyde$ grep meow  filescan_00.3 | wc -l
+      33
+MacBook-Pro:forest clyde$ grep pika  filescan_00.3 | wc -l
+      40
+MacBook-Pro:forest clyde$ grep psyd  filescan_00.3 | wc -l
+       0
+MacBook-Pro:forest clyde$ grep psyd  filescan_00.4 | wc -l
+      37
+MacBook-Pro:forest clyde$ grep squi  filescan_00.4 | wc -l
+      34
+MacBook-Pro:forest clyde$ grep venu  filescan_00.4 | wc -l
+      32
+MacBook-Pro:forest clyde$ grep wart  filescan_00.4 | wc -l
+      37
 
 
 
